@@ -1,3 +1,4 @@
+/* common  */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +8,8 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-.navbar {
+/* header - menu */
+.menu {
     display: inline-block;
     overflow: hidden;
     position: fixed;
@@ -15,7 +17,7 @@ body {
     width: 100%;
     z-index: 1; 
 }
-.navbar a {
+.menu a {
     border: 1px solid;
     border-radius: 50%;
     float: right;
@@ -27,15 +29,19 @@ body {
     text-decoration: none;
 }
 
+/* caratteristiche main  */
 main {
     z-index: 2;
 }
 
+/* struttura box  */
 .box {
     position: relative; 
     width: 100%;
     height: 100vh;
 }
+
+/* interno box img + text  */
 figure {
     position: absolute;
     top: 50%;
@@ -47,10 +53,8 @@ figcaption {
     font-size: 30px;
     width: 100%;
 }
-img {
-    width: 100%;
-}
 
+/* colori box  */
 #red {
     background-color: red;
     color: yellow;
