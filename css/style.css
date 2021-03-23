@@ -50,7 +50,7 @@ figure {
 }
 figcaption {
     text-align: center;
-    font-size: 30px;
+    font-size: 300%;
     width: 100%;
 }
 
@@ -69,3 +69,6 @@ figcaption {
     background: yellow;
     color: green;
 }
+
+
+/* come faccio a "nascondere" le tab 2-3 e mostrarle solo quando premo sul link 1 - 2 - 3? */
