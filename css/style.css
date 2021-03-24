@@ -54,6 +54,10 @@ figcaption {
     width: 100%;
 }
 
+a::hover {
+    cursor: pointer;
+}
+
 /* colori box  */
 #red {
     background-color: red;
